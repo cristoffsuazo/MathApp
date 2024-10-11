@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathApp.ResultPage">
+
+    <StackLayout>
+        <Label x:Name="resultLabel" Text="Resultado:" FontAttributes="Bold" FontSize="Medium" />
+        <Button x:Name="backButton" Text="Regresar" Clicked="BackButton_Clicked" BackgroundColor="#ADD8E6" TextColor="Black" Margin="0,10,0,10" WidthRequest="150" />
+    </StackLayout>
+
+</ContentPage>
